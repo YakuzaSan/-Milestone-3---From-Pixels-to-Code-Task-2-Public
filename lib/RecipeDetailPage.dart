@@ -34,8 +34,12 @@ class RecipeDetailPage extends StatelessWidget {
                 if (half) const Icon(Icons.star_half, color: Colors.amber),
                 for (int i = 0; i < empty; i++)
                   const Icon(Icons.star_border, color: Colors.amber),
+
+                const SizedBox(width: 8),
+                Text("(${recipe.reviewCount} Bewertungen)"),
               ],
             ),
+
 
             const SizedBox(height: 20),
 
